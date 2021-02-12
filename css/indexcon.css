@@ -1,0 +1,130 @@
+body{
+    background: url(../img/fondo.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+header{
+    background-image: url(../img/banner-pan.jpg );
+    
+    background-size: cover;
+    width: 100%;
+    height: 325px;
+}
+
+header h1{
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: tomato;
+}
+
+h1{
+    text-align: center;
+    color: tomato;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none; /* este le coloca a las etiquetas a del html una decoracion null */
+}
+
+nav {
+    padding: 5px;
+    background: rgb(245, 113, 25);;
+}
+
+.menu {
+    max-width: 750px; /* ancho maximo de 750px y no sobre pasa eso */
+    margin: auto; /* margen automatico de acuerdo el ancho que le pongas de maximo */
+}
+
+.item {
+    display: inline-block; /* Esto es para ponerlo en linea, en un solo bloque */
+    text-align: center;
+    padding: 10px; /* Relleno a los 4 lados de los LI */
+}
+
+.item a {
+    color: white;
+    font-weight: bold; /* fuente en negrita */
+}
+
+.item a:hover {
+    background: rgb(250, 226, 190);/* se presenta cuando el usuario coloca el puntero sobre algun elemento*/
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.campo {
+    position: absolute; /* posicion relativa padre */
+    padding-left: 30px  ;
+}
+
+.formulario{
+    font-size: 15px;
+    background: white;
+    border-radius: 10px; /*dar tipo de borde*/
+    position: static; /* position absoluta para moverlo manualmente con el contenedor padre */
+    top: 5px;
+    margin-left: 700px;
+    padding: 20px;
+}
+
+label{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+select{
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    padding-right: 9px;
+}
+
+::placeholder{
+    font-size: 11px;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+.contacto{
+    background: white;
+    max-width: 650px;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 75px;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    background: rgb(245, 113, 25);
+    color: white;
+    margin: 0px;
+}
+
+table th, td{
+    border-bottom: 1px solid lightcoral;
+    font-family: 'Times New Roman', Times, serif;
+}
