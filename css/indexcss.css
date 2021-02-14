@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: orange;
+}
+
+body{
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+header{
+    width: 1000px;
+    height: 200px;
+    background-color: brown;
+}
+
+nav{
+    width: 1000px;
+    height: 50px;
+    background-color: yellowgreen;
+}
+
+main{
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+}
+
+video{
+    width: 800px;
+    height: 100px;
+    float: left;
+    background-color: red;
+}
+
+article{
+    width: 800px;
+    height: 400px;
+    float: left;
+    background-color: blueviolet;
+}
+
+aside{
+    width: 200px;
+    height: 500px;
+    float: left;
+    background-color: blue;
+}
+
+footer{
+    width: 1000px;
+    height: 50px;
+    background-color: orangered;
+}
