@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: brown;
+}
+
+body{
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+header{
+    width: 1000px;
+    height: 300px;
+    background-image: url(../img/banner-pan.jpg);
+    background-size: cover;
+}
+
+#section-header{
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px 0;
+    text-decoration: none;
+}
+
+#section-header h1{
+    font-size: 44px;
+    text-align: center;
+    color: brown;
+
+}
+
+nav{
+    width: 1000px;
+    height: 80px;
+    background-color: orange;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 12px;
+    padding: 1px 2px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    background: brown;
+    transition: .10s;
+}
+
+main{
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+}
+
+aside{
+    width: 300px;
+    height: 600px;
+    float: left;
+    background-color: salmon;
+}
+
+img{
+    width: 300px;
+    height: 600px;
+    float: left;
+}
+
+article{
+    width: 500px;
+    height: 600px;
+    padding: 40px;
+    float: left;
+}
+
+form{
+    margin: 15px;
+    width: 600px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    margin: auto;
+}
+  
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+
+th {
+    background-color: rgb(235,235,235);
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background-color: rgb(250,250,250);
+}
+
+tr:nth-child(odd) td {
+    background-color: rgb(245,245,245);
+}
+
+caption {
+    padding: 10px;
+}
+
+.imagen{
+    border:solid silver 1px;
+    height:100px; /* ALTO_IMAGEN */
+    width: 300px;
+    background-position:center center; /* Centrado de imagen*/
+    background-repeat:no-repeat;
+}
+
+footer{
+    width: 1000px;
+    height: 20px;
+    text-align: center;
+    background-color: orange;
+}
