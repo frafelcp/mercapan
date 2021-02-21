@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MercaPan - Trabaja con nosostros</title>
+    <link rel="stylesheet" href="../css/sucu.css">
+    <link rel="stylesheet" href="../css/table.css">
+    <link rel="icon" type="image/PNG" href="img/cuerno.ico">
+</head>
+
+<body>
+    <header>
+        <h1>MERCAPAN</h1>
+    </header>
+    
+    <nav class="nav">
+        <ul>
+            <li class="item"><a href="index.html">Inicio</a></li>
+            <li class="item"><a href="html/servicios.html">Servicios</a></li>
+            <li class="item"><a href="html/sucursales.html">Sucursales</a></li>
+            <li class="item"><a href="html/catalogo.html">Catalogo</a></li>
+           <li class="item"><a href="../html/sucursalesdos.html">sucursales</a></li>
+            <li class="item"><a href="../html/trabaja.html">trabaja</a></li>
+            <li class="item"><a href="../html/asesoria.html">asesoria</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <article>
+            <form action="" method="get">
+            <h1>Diligencia tus datos</h1>
+            <p>
+                Los campos obligatorios van seguidos de <strong> <abbr title="required"> * </abbr> </strong>.
+            </p>
+            <section>
+                <h2>Informacion del usuario</h2>
+                <p>
+                    <label for="apellido-1">
+                        <span>Primer apellido:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type="text" id="apellido-1" name="apellido-1">
+
+                    <label for="apellido-2">
+                        <span>Segundo apellido:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type="text" id="apellido-2" name="apellido-2">
+                </p>
+                <p>
+                    <label for="nombre-1">
+                        <span>Primer nombre:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type="text" id="nombre-1" name="nombre-1">
+
+                    <label for="nombre-2">
+                        <span>Segundo nombre:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type="text" id="nombre-2" name="nombre-2">
+                </p>
+                <p>
+                    <label for="edad">
+                        <span>Edad:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type="number" id="edad" name="edad">
+                </p>
+                <p>
+                    <label for="num-hijos">
+                        <span>Numero de hijos:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type="number" id="num-hijos" name="num-hijos">
+                </p>
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <ul>
+                        <li>
+                            <label for="sexo-1">
+                                <input type="radio" name="sexo" id="sexo-1">Masculino
+                            </label>
+                        </li>
+                        <li>
+                            <label for="sexo-2">
+                                <input type="radio" name="sexo" id="sexo-2">Femenino
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <p>
+                    <label for="nacimiento">
+                        <span>Fecha de nacimiento:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type="datetime" id="nacimiento" name="nacimiento" placeholder="dd/mm/aaaa">
+                </p>
+                <p>
+                    <label for="grado">
+                        <span>Utimo grado:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <select name="grado" id="grado">
+                        <option value="auxiliar">Auxiliar</option>
+                        <option value="primaria">Primaria</option>
+                        <option value="Segundo">Segundo</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="experiencia">
+                        <span>Años de experiencia:</span>
+                        <strong><abbr title="required">*</abbr></strong>
+                    </label>
+                    <input type="number" id="experiencia" name="experiencia">
+                </p>
+                <fieldset>
+                    <legend>Vehiculo</legend>
+                    <ul>
+                        <li>
+                            <label for="car">
+                                <input type="radio" name="car" id="car">Si
+                            </label>
+                        </li>
+                        <li>
+                            <label for="car">
+                                <input type="radio" name="car" id="car">No
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <p> 
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </p>
+            </section>
+        </form>
+        </article>
+        <aside>
+            <img src="../img/contac.jpg">
+        </aside>
+    </main>
+
+    <footer>© MercaPan 2020 <br>
+        Todos los derechos reservados
+    </footer>
+
+</body>
+
+</html>

@@ -1,60 +1,111 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 html{
-    background-color: orange;
+    background-color: brown;
 }
 
 body{
     width: 1000px;
-    height: 800px;
+    height: 1000px;
     margin: auto;
     background-color: white;
 }
 
 header{
     width: 1000px;
-    height: 200px;
-    background-color: brown;
+    height: 300px;
+    background-image: url(../img/banner-pan.jpg);
+    background-size: cover;
+}
+
+#section-header{
+    max-width: 1000px;
+    margin: auto;
+    padding: 100px 0;
+    text-decoration: none;
+}
+
+#section-header h1{
+    font-size: 44px;
+    text-align: center;
+    color: brown;
+
 }
 
 nav{
     width: 1000px;
-    height: 50px;
-    background-color: yellowgreen;
+    height: 80px;
+    background-color: orange;
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 12px;
+    padding: 1px 2px;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    background: brown;
+    transition: .10s;
 }
 
 main{
     width: 1000px;
-    height: 500px;
+    height: 600px;
     background-color: white;
 }
 
-video{
-    width: 800px;
-    height: 100px;
-    float: left;
-    background-color: red;
-}
-
 article{
-    width: 800px;
-    height: 400px;
+    width: 500px;
+    height: 600px;
     float: left;
-    background-color: blueviolet;
 }
 
-aside{
-    width: 200px;
-    height: 500px;
+article iframe{
+    width: 500px;
+    margin: auto;
+    padding: 150px 30px;
     float: left;
-    background-color: blue;
+}
+
+#section-text{
+    width: 500px;
+    height: 600px;
+    padding: 50px 10px;
+    text-align: justify;
+    font-size: 20px;
+    background-color: burlywood;
 }
 
 footer{
     width: 1000px;
-    height: 50px;
-    background-color: orangered;
+    height: 20px;
+    text-align: center;
+    background-color: orange;
 }
